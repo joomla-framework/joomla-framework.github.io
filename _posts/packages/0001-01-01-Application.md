@@ -1,5 +1,5 @@
 ---
-package: Application
+package: application
 layout: bare
 ---
 
