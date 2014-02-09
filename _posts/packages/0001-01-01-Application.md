@@ -1,6 +1,5 @@
 ---
-package: application
-layout: bare
+layout: page
 ---
 
 # The Application Package
