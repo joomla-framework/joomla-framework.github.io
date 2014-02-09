@@ -6,7 +6,7 @@ title: Joomla Framework!
 
 # standard jekyll configuration
 
-permalink: /packages/:slug
+permalink: /packages/:title
 pygments: true
 exclude:
 - google011cbb3f33cc2175.html
