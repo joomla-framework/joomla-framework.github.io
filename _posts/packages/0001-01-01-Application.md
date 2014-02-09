@@ -1,5 +1,6 @@
 ---
 layout: page
+slug: application
 ---
 
 # The Application Package
