@@ -1,0 +1,25 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+	{% if page.description %}
+	<meta name="description" content="{{ page.description }}" />
+	{% endif %}
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<header>
+	About | Packages | Examples | Community
+</header>
+
+{{ content }}
+
+{% include footer.html %}
+{% include analytics.html %}
+
+</body>
+</html>
