@@ -8,5 +8,13 @@ description: The Joomla! Framework provides a structurally sound foundation on w
 	<div>
 		<p>This is index.html</p>
 
+		<ul>
+		{% for p in site.packages %}
+			<li>
+				<a href="{{ BASE_PATH }}{{ p.url }}">{{ p.title }}</a>
+			</li>
+		{% endfor %}
+		</ul>
+
 	</div>
 </section>
