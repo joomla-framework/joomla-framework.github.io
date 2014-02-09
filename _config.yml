@@ -1,0 +1,14 @@
+# For Atom Feed
+domain: framework.joomla.org
+author: Joomla Framework Team
+email: framework@joomla.org
+title: Joomla Framework!
+
+# standard jekyll configuration
+
+permalink: /articles/:title
+pygments: true
+exclude:
+- google011cbb3f33cc2175.html
+
+markdown: rdiscount
