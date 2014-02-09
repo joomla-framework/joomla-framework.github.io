@@ -1,0 +1,15 @@
+<p>Site Navigation</p>
+<nav>
+	<ul>
+		<li>
+			Packages
+		</li>
+		<ul>
+			{% for post in site.posts %}
+			<li>
+				<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</ul>
+</nav>
