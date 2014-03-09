@@ -8,11 +8,12 @@ description: Contributing to the Joomla! PHP Framework
 
 * [Pull Requests](#pull-requests)
 * [Joomla Contributor Agreement](#joomla-contributor-agreement)
+* [Versioning](#versioning)
 * [Coding standards](#coding-standards)
 * [Unit Testing](#unit-testing)
 * [Documentation](#documentation)
 
-## Pull Requests
+## <a name="pull-requests"></a>Pull Requests
 
 Pull requests are merged via Github, you can find the documentation about how to fork a repository and start
 contributing to Joomla here [https://help.github.com/articles/fork-a-repo](https://help.github.com/articles/fork-a-repo).
@@ -20,10 +21,10 @@ contributing to Joomla here [https://help.github.com/articles/fork-a-repo](https
 All contributions are welcome to be submitted for review for inclusion in the Joomla Framework, but before they will be
 accepted, we ask that you follow these simple steps:
 
-* [Joomla Contributor Agreement](#joomla-contributor-agreement)
-* [Coding standards](#coding-standards)
-* [Unit Testing](#unit-testing)
-* [Documentation](#documentation)
+* Read and electronically sign the [Joomla Contributor Agreement](#joomla-contributor-agreement)
+* Check your code against our [Coding standards](#coding-standards)
+* Ensure the [Unit Testing](#unit-testing) passes
+* Make any necessary additions or changes to the [Documentation](#documentation)
 
 Please be patient as not all items will be tested or reviewed immediately by the Framework maintainer team.
 
@@ -39,7 +40,7 @@ All tasks are labelled into broad groups. For example, the
 [backlog](https://github.com/joomla/joomla-framework/issues?labels=backlog&page=1&state=open) label shows all the tasks
 that need to be competed to "catch up" on work that was missed out in previous versions of the Framework.
 
-## Joomla Contributor Agreement
+## <a name="joomla-contributor-agreement"></a>Joomla Contributor Agreement
 
 Ideally, everybody who contributes to the Joomla Framework, or any other Open Source Matters supported project for that
 matter, should sign a [Joomla Contributor Agreement](http://developer.joomla.org/contributor-agreements.html) (JCA).
@@ -53,12 +54,12 @@ a JCA.
 If you are contributing as an employee of a company (that is, the work you are contributing was done on company time)
 then we need a JCA with your company no matter how small the contribution is.
 
-## <a name="jca"></a>Versioning
+## <a name="versioning"></a>Versioning
 
 When you add new classes, properties or methods, use `__DEPLOY_VERSION__` in the `@since` tags in Docblocks.
 We'll replace that special tag with the actual version the changes are deployed in.
 
-## Coding standards
+## <a name="coding-standards"></a>Coding standards
 
 The submitted code must be compatible with the Joomla coding standard. You can read about the Joomla coding standards
 here:
@@ -120,7 +121,7 @@ as a whole are a helpful group and can help you with writing tests.
 The PHPUnit manual contains all the documentation you need in order to install it and begin to write unit tests :
 [http://www.phpunit.de/manual/current/en/](http://www.phpunit.de/manual/current/en/).
 
-## Documentation
+## <a name="documentation"></a>Documentation
 
 Documentation for each package in the Joomla Framework can be found in the `README.me` file in the main package folder.
 The file uses Github flavoured Markdown format. You can find out more about this format at
