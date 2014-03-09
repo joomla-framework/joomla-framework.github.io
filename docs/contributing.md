@@ -1,3 +1,9 @@
+---
+layout: page
+title: License & Attribution
+description: Contributing to the Joomla! PHP Framework
+---
+
 # Contributing to the Joomla! PHP Framework
 
 * [Pull Requests](#pull-requests)
