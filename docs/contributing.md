@@ -1,6 +1,6 @@
 ---
 layout: page
-title: License & Attribution
+title: Contributing to the Joomla! PHP Framework
 description: Contributing to the Joomla! PHP Framework
 ---
 
