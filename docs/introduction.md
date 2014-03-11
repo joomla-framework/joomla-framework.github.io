@@ -10,10 +10,10 @@ description: Introducing the Joomla! PHP Framework
 
 * [About the Joomla PHP Framework](#about)
 * [Requirements](#requirements)
-* [Versioning](#versioning)
-* [Coding standards](#coding-standards)
-* [Unit Testing](#unit-testing)
+* [Installation](#installation)
 * [Documentation](#documentation)
+* [Reporting Bugs and Issues](#bugs)
+* [Contributing](#contributing)
 
 ## <a name="about"></a>About the Joomla! PHP Framework ?
 
@@ -29,13 +29,13 @@ View the Joomla Framework API Documentation at [http://api.joomla.org](http://ap
 
 You can discuss Joomla Framework development by joining the mailing list at [http://groups.google.com/group/joomla-dev-framework](http://groups.google.com/group/joomla-dev-framework).
 
-## <a name="requirements">Requirements
+## <a name="requirements"></a>Requirements
 
 - PHP 5.3.10 or 5.4.17
 - Each package has their own requirements as well. Ex: The Image package requires the PHP GD extension. Please see the `composer.json` in each package repository for these requirements.
 - Applications implementing the Joomla Framework must implement the 'JPATH_ROOT' constant which should be the root path of the application.
 
-## Installation
+## <a name="installation"></a>Installation
 
 The simplest way to get up and running with the Joomla Framework is to use [composer](http://getcomposer.org). Basic installation for composer can be found below, for additional information on installing composer, [read the documentation](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
@@ -82,17 +82,17 @@ php composer.phar require joomla/packagename:version
 `git clone git://github.com/joomla/joomla-framework.git`
 
 
-## Documentation
+## <a name="documentation"></a>Documentation
 
 General documentation about the Joomla Framework can be found under the [/docs](docs/) folder of this repository. In addition, each package has documentation in a `README.md` file.
 
 
-## Reporting Bugs and Issue
+## <a name="bugs"></a>Reporting Bugs and Issues
 
 Bugs and issues found in the Joomla Framework code can be reported on the [Issues](https://github.com/joomla/joomla-framework/issues) list. Even for distributed packages where the code is in another repo, please submit issues to this issue tracker.
 
 
-## Contributing
+## <a name="contributing"></a>Contributing
 
 All kind of contributions are welcome. Please read about how to contribute [here](CONTRIBUTING.markdown).
 
